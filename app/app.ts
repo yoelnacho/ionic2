@@ -12,6 +12,7 @@ export class MyApp {
   public rootPage: any;
 
   constructor(private platform: Platform) {
+    // primera página que se carga TabsPage
     this.rootPage = TabsPage;
 
     platform.ready().then(() => {
